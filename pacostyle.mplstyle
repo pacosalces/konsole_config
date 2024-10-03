@@ -1,0 +1,35 @@
+# Figure
+figure.figsize: 6, 4
+savefig.dpi: 150
+pdf.compression: 9
+
+# Text
+text.usetex: True
+font.family: serif
+font.size: 14
+
+# Scatter and line plots
+lines.marker: None
+lines.markerfacecolor: auto
+lines.markeredgecolor: k 
+lines.markeredgewidth: 1.0
+lines.linewidth: 1.5
+lines.markersize : 10
+scatter.edgecolors: k
+scatter.marker: h
+errorbar.capsize: 0
+
+
+# Image plots
+image.cmap: RdBu_r
+image.origin: lower
+
+# Axes
+
+axes.prop_cycle: cycler('color', ['darkcyan', 'crimson', 'goldenrod', 'mediumorchid', 'forestgreen', 'salmon', 'cornflowerblue', 'chocolate', 'olive', 'lightslategray'])
+axes.titlesize : 22
+axes.grid: True         
+grid.alpha: 0.75
+axes.labelsize : 20
+xtick.labelsize : 16
+ytick.labelsize : 16
